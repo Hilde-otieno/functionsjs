@@ -1,8 +1,8 @@
-function reverse(name1, name2, name3, name4){
+function names(array){
     const names = ["Megan", "Agnes", "Shalom", "Mwanasha"]
 
-    names.sort((a,b)=>a-b);
+    names.sort();
     names.reverse();
-    console.log({console:names});
+    console.log(names.reverse().sort());
     return {return:names};
 }
